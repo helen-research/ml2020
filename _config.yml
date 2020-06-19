@@ -49,3 +49,4 @@ defaults:
       type: "assignments"
     values:
       layout: "assignment"
+encoding: UTF-8
