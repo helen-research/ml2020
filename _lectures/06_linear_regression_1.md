@@ -5,7 +5,9 @@ title: Linear Regression 1
 tldr: "The simplest regression model."
 links: 
     - url: /static_files/slides/6-linear-regression.pdf
-      name: slides
+      name: slides1
+    - url: /static_files/slides/6-ml-maths.pdf
+      name: slides2
     - url: https://www.youtube.com/watch?v=APAcikEbV4g&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=6
       name: youtube
 ---
