@@ -1,12 +1,10 @@
 ---
 type: lecture
 date: 2018-09-16T8:00:00+4:30
-title: Sample Lecture
-tldr: "Short text to discribe what this lecture is about."
-thumbnail: /static_files/presentations/lec.jpg
+title: Introduction to Machine Learning
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notes
+    - url: /static_files/slides/1.pdf
+      name: slides
     - url: /static_files/presentations/code.zip
       name: codes
     - url: https://google.com
