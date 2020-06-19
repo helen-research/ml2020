@@ -6,4 +6,4 @@ links:
     - url: /static_files/slides/1-introduction.pdf
       name: slides
     - url: https://www.youtube.com/watch?v=JevkPSp1p6A
-      name: youtube
+      name: notes
