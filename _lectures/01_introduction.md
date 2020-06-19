@@ -1,9 +1,15 @@
 ---
 type: lecture
-date: 2020-01-06T8:00:00+5:30
-title: Introduction to Machine Learning
+date: 2018-09-16T8:00:00+4:30
+title: Sample Lecture
+tldr: "Short text to discribe what this lecture is about."
+thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/slides/1-introduction.pdf
       name: slides
-    - url: https://www.youtube.com/watch?v=JevkPSp1p6A
-      name: notes
+    - url: https://google.com
+      name: youtube
+---
+**Suggested Readings:**
+- [Readings 1](http://example.com)
+- [Readings 2](http://example.com)
