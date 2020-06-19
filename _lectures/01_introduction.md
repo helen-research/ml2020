@@ -5,7 +5,7 @@ title: Sample Lecture
 tldr: "Short text to discribe what this lecture is about."
 thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
+    - url: /static_files/slides/1-introduction.pdf
       name: notes
     - url: /static_files/presentations/code.zip
       name: codes
