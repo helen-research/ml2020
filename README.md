@@ -1,227 +1,122 @@
-# Features
-- Individual page for assignments, lectures, course material, course schedule
-- Auto generated Course schedule Page
-- Auto generated course updates section (for each new lectures and assignments) + custom/manual announcements 
-- Super lightweight 
-- Highly customizable
-- Ready to be used in Github Pages
-- Responsive Mobile View
-- Support for Google Analytics
+# al-folio
 
-# Change log
-- Version 2.0
-  - New Schedule page with more efficient use of space.
-  - Gregorian calendar is now the default one (English Calendar).
-  - Add customization options to home, assignments, lectures, and schedule pages.
-  - Add support for themes (so you can modify the website's look according to your school's brandings)!.
-  - Move navigation menus to YAML which means it is now easier to add new pages.
-  - Add more flexibility to lecture's links
+[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
+[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
+[![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# Demo
-Checkout for a working demo at [kazemnejad.github.io/jekyll-course-website-template/](https://kazemnejad.github.io/jekyll-course-website-template/). You may also want to see this real-world example at [iust-deep-learning.github.io/972](https://iust-deep-learning.github.io/972/) or [iust-courses.github.io/ai97/](https://iust-courses.github.io/ai97/) (Please note the last two examples are using the older version).
+A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 
-# Some Screenshots
-<p float="left">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_home.jpg" width="300">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_schedule.jpg" width="300">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_lecture.jpg" width="300">
+[![Screenshot](assets/img/full-screenshot.png)](https://alshedivat.github.io/al-folio/)
+
+Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
+Since then, it got a full re-write of the styles and many additional cool features.
+The emphasis is on whitespace, transparency, and academic usage: [theme demo](https://alshedivat.github.io/al-folio/).
+
+## Getting started
+
+For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
+Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+
+### Installation
+
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first fork the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+
+```bash
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
+$ bundle install
+$ bundle exec jekyll serve
+```
+
+Now, feel free to customize the theme however you like (don't forget to change the name!).
+After you are done, **commit** your final changes.
+Now, you can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
+
+```bash
+$ ./bin/deploy [--user]
+```
+By default, the script uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
+Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
+
+**Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
+
+```
+url: # should be empty
+baseurl:  # should be empty
+```
+
+### Usage
+
+Note that `_pages/about.md` is built to index.html in the published site. There is therefore no need to have a separate index page for the project. If an index page does exist in the root directory then this will prevent `_pages/about.md` from being added to the built site.
+
+## Features
+
+#### Ergonomic Publications
+
+Your publications page is generated automatically from your BibTex bibliography.
+Simply edit `_bibliography/papers.bib`.
+You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
+
+Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
+
+#### Collections
+This Jekyll theme implements collections to let you break up your work into categories.
+The example is divided into news and projects, but easily revamp this into apps, short stories, courses, or whatever your creative work is.
+
+> To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
+
+Two different layouts are included: the blog layout, for a list of detailed descriptive list of entries, and the projects layout.
+The projects layout overlays a descriptive hoverover on a background image.
+If no image is provided, the square is auto-filled with the chosen theme color.
+Thumbnail sizing is not necessary, as the grid crops images perfectly.
+
+#### Theming
+Six beautiful theme colors have been selected to choose from.
+The default is purple, but quickly change it by editing `$theme-color` variable in the `_sass/variables.scss` file (line 72).
+Other color variables are listed there, as well.
+
+#### Photos
+Photo formatting is made simple using rows of a 3-column system.
+Make photos 1/3, 2/3, or full width.
+Easily create beautiful grids within your blog posts and projects pages:
+
+<p align="center">
+  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
+    <img src="assets/img/photos-screenshot.png" width="75%">
+  </a>
 </p>
 
-<p float="left">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_assign.jpg" width="300">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_sample_assign.jpg" width="300">
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/screen_material.jpg" width="300">
+#### Code Highlighting
+This theme implements Jekyll's built in code syntax highlighting with Pygments.
+Just use the liquid tags `{% highlight python %}` and `{% endhighlight %}` to delineate your code:
+
+<p align="center">
+  <a href="https://alshedivat.github.io/al-folio/blog/2015/code/">
+    <img src="assets/img/code-screenshot.png" width="75%">
+  </a>
 </p>
 
-# Acknowledgement 
-This template is heavily based on [svmiller / course-website](https://github.com/svmiller/course-website).
+#### Social media previews
+The al-folio theme optionally supports preview images on social media.
+To enable this functionality you will need to set `serve_og_meta` to `true` in
+your `_config.yml`. Once you have done so, all your site's pages will include
+Open Graph data in the HTML head element.
 
-# How to deploy your own website (on GitHub pages) 
-1. Fork this repository.
-2. Open `_config.yml`.
-   1. Update `url` field according to your GitHub account (e.g., `https://<your-github-username>.github.io/`).
-   2. Update `baseurl` field according to your reporsitory's name (e.g., `/cs101`).
-   3. Commit and push your changes.
-3. Go to your repository's settigns (`https://github.com/<your-github-username>/<your-repo-name>/settings`).
-4. On GitHub Pages section, choose source to be your master branch, and enable Github Pages.
-5. You are now ready to go! Start customizing your website.
+You will then need to configure what image to display in your site's social
+media previews. This can be configured on a per-page basis, by setting the
+`og_image` page variable. If for an individual page this variable is not set,
+then the theme will fall back to a site-wide `og_image` variable, configurable
+in your `_config.yml`. In both the page-specific and site-wide cases, the
+`og_image` variable needs to hold the URL for the image you wish to display in
+social media previews.
 
-Pro Tip: You don't need to clone your repo to update your website. Use GitHub web UI to update its source files, and GitHub will build and deploy your website automatically!
+## Contributing
 
-**Best Practice for managing repositories**: If you plan to use this template for university courses, and the course is offered for multiple semesters/quarters, I suggests you to create a GitHub account or an Organization for it. Then, create new repoository under that account/organization for each semester.
-- Example: 
-  - Course name: CS101
-  - Semester: Fall 2020
-  - School name: CMU
-- => account/org name: `cmu-cs101`
-- => repo name: `fa2020`
-- => website address will be: `https://cmu-cs101.github.io/fa2020/`
+Feel free to contribute new features and theme improvements by sending a pull request.
+Style improvements and bug fixes are especially welcome.
 
-# How to test your website locally
-1. Install Jekyll ([Installation guide](https://jekyllrb.com/docs/installation/))
-2. Clone your repo
-3. Watch your website while editing: `bundle exec jekyll serve`
+## License
 
-# How to customize
-## Changing the names
-- Open `_config.yml`
-- Update `course_name`, `course_semester`, and `course_description` (this will appear in the home page).
-- Update `schoolname`, `schoolurl`, `twitter_username`, and `address` accordingly.
-- (Optional) Enter your Google Analytics tracking ID in the `google_analytics` field (Remember to uncomment it).
-- Add more content to your home page: Update `index.md` (it supports Markdown!)
-- Update course staff info at `_data/people.yml` (You may need to upload the profile pics to `_images` folder.
-- (Optional) Open `_data/previous_offering.yml` and update the data if needed.
-
-## Change the looks
-- Open `_sass/_user_vars.scss`
-- Select your favorite from the pre-defined themes (comment all other themes, and uncomment your desired one)
-- Here are all themes:
-<img src="https://raw.githubusercontent.com/kazemnejad/jekyll-course-website-template/master/_images/screenshots/themes.png">
-
-- You can also change the colors manually to match your branding
-## Contents
-### Lectures
-To add a new lecture, create an empty file with `.md` postfix in `_lectures/` directory. fill it using below template:
-```markdown
----
-type: lecture
-date: 20xx-xx-xxTx:xx:xx+4:30 
-title: <Title of this lecture>
-
-# optional
-# please use /static_files/notes directory to store notes
-thumbnail: /static_files/path/to/image.jpg
-
-# optional
-tldr: "What is AI? How does it impact our lives? The current state of the art."
-  
-# optional
-# set it to true if you dont want this lecture to appear in the updates section
-hide_from_announcments: false
-
-# optional
-links: 
-    - url: /static_files/presentations/lec.zip
-      name: notes
-    - url: /static_files/presentations/code.zip
-      name: codes
-    - url: https://google.com
-      name: slides
-    - url: https://example.com
-      name: other
----
-<!-- Other additional contents using markdown -->
-**Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
-```
-
-### Assignments
-To add a new assignments, create an empty file with `.md` postfix in `_assignments/` directory. fill it using below template:
-```markdown
----
-type: assignment
-date: 20xx-xx-xxTx:xx:xx+4:30
-title: <Assignment title (e.g. Assignment #1>
-
-# optional 
-pdf: /static_files/assignments/assign_01.pdf
-
-# optional
-solutions: /static_files/assignments/assign_01_solutions.pdf
-
-# optional
-attachment: /static_files/assignments/assign_01_attachment.zip
-
-# optional
-# set it to true if you don't want this assignment to appear in the announcements section
-hide_from_announcments: false
-
-due_event: 
-    type: due
-    date: 20xx-xx-xxTx:xx:xx+4:30
-    description: 'Assignment #1 due'
----
-<!-- Other additional contents using markdown -->
-```
-
-### Dues & Deadlines
-Use `_events/` directory to add new a deadline, use `type: due`. These events will apear at the schedule page.
-```markdown
----
-type: due
-date: 20xx-xx-xxTx:xx:xx+4:30
-description: <Description of deadline (e.g. 'Final report due')>
-
-# optional
-# set it to true if you don't want this event to appear in the announcements section
-hide_from_announcments: false
----
-```
-
-### Exams
-Use `_events/` directory to add new Exam alert, use `type: exam`. These events will apear at the schedule page.
-```markdown
----
-type: exam
-date: 20xx-xx-xxTx:xx:xx+4:30
-description: <Description of the exam (e.g. 'The midterm exam')>
-
-# optional
-# set it to true if you don't want to this event appear in the announcements section
-hide_from_announcments: false
----
-```
-
-### Custom Events
-Use `_events/` directory to add new custom events, use `type: raw_event`. These events will apear at the schedule page.
-```markdown
----
-type: raw_event
-name: <Event name>
-date: 20xx-xx-xxTx:xx:xx+4:30
-description: <Event description>
-
-# optional
-# if you want to hide time in Schedule, set this to true
-hide_time: false
-
-# optional
-# set it to true if you don't want this event appear to in the announcements section
-hide_from_announcments: false
----
-<!-- you can create custom content using markdown. this section will be placed in "Course Materials (in schedule section)" -->
-## Hello
-this is a custom event with `code` 
-```
-
-
-### Updates/Announcements
-All contents here appear in at the home page
-Use `_announcements/` directory to create new Announcement
-```markdown
----
-date: 20xx-xx-xxTx:xx:xx+4:30
----
-<put a short announcement here, you can use all markdown features>
-```
-
-## Advanced Customization
-You can add custom contents to each section (lectures, assignments, schedule, materials, and project)
-- Lectures: Edit `lectures.md`
-- Assignments: Edit `assignments.md`
-- Schedule: Edit `schedule.md`
-- Materials: Edit `materials.md`
-- Project: Edit `project.md`
-
-Additionally, you can update navigation menus (the menu at the top of the website) by editing `_data/nav.yml`
-
-To add new section, add new navigation menu. Then create a new file in website's root directory using the following template:
-```markdown
----
-layout: page
-title: Page Title
-permalink: /page-address/
----
-```
-
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
