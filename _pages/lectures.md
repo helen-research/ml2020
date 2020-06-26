@@ -16,7 +16,10 @@ description: "Education is what remains after one has forgotten what one has lea
 |6| 15 Jan|Linear Regression 1, Maths for ML 1 [[Slides1](../lectures/6-linear-regression.pdf)][[Slides2](../lectures/6-ml-maths.pdf)][[Video](https://youtu.be/APAcikEbV4g)]|
 |7|20 Jan| Geometric Interpretation of least squares [[Slides](7-geometric-regression.pdf)][[Video](https://youtu.be/KWeLr4UksNw)]|
 |7| 20 Jan| Linear Regression 2 [[Slides](../lectures/7-linear-regression-2.pdf)][[Video](https://youtu.be/vRlDnbEIjlk)]|
-|7| 20 Jan| Contour plot [[Slides](../lectures/7-ml-maths-2.pdf)][[Video](https://youtu.be/vdDFGOmfY-s)]
+|7| 20 Jan| Contour plot [[Slides](../lectures/7-ml-maths-2.pdf)][[Video](https://youtu.be/vdDFGOmfY-s)]|
+|8| 22 Jan| Gradient descent [[Slides](../lectures/8-Gradient-descent.pdf)][[Videos](https://youtu.be/jN5A8nnhnbc)]|
+|9|27 Jan| Convexity [[Slides](../lectures/9-convexity.pdf)][[Video](https://youtu.be/jheHrjo11Q0)]|
+|9|27 Jan| Causality and Fairness (guest lecture by Ritik Dutta) [[Slides]()][[Video](https://youtu.be/lLOTj7gXcfw)]|
 |25|22 June| SVM Introduction [[Slides ](../lectures/25-svm-intro.pdf)][[Video](https://www.youtube.com/watch?v=SxlM9Fpfk2Y&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=47&t=3506s)]
 |26|24 Jun| SVM Kernels [[Slides ](../lectures/26-svm-kernel.pdf)][[Video](https://www.youtube.com/watch?v=MhjxDACIVWM&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=48&t=11s)]| [Article from Jake Vanderplas'book](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html)|
 |27|29 Jun|SVM soft margin [[Slides](../lectures/27-svm-soft-margin.pdf)][[Video](https://www.youtube.com/watch?v=yY6-LUerLcs&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=49&t=3s)]
