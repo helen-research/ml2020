@@ -27,4 +27,4 @@ description: "Education is what remains after one has forgotten what one has lea
 |28|1 Jul| Automatic Differentiation [[Slides](../lectures/28-backprop.pdf)][[Video](https://www.youtube.com/watch?v=CHCO1q2updI)]|
 |29|6 Jul| Naive Bayes [[Slides](../lectures/29-naive.pdf)][[Video](https://www.youtube.com/watch?v=KWJ12W0YLf8)]|
 |30|8 Jul| KNN [[Slides](../lectures/30-knn.pdf)][[Video](https://www.youtube.com/watch?v=6B2r0LOyBQI)]|
-|31| 15 Jul| Unsupervised learning [[Slides]()][[Video]()]|
+|31| 15 Jul| Unsupervised learning [[Slides](../lectures/31-unsupervised.pdf)][[Video](https://www.youtube.com/watch?v=UVTDW2_2IZQ)]|
