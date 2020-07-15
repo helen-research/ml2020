@@ -20,6 +20,16 @@ description: "Education is what remains after one has forgotten what one has lea
 |8| 22 Jan| Gradient descent [[Slides](../lectures/8-Gradient-descent.pdf)][[Videos](https://youtu.be/jN5A8nnhnbc)]|
 |9|27 Jan| Convexity [[Slides](../lectures/9-convexity.pdf)][[Video](https://youtu.be/jheHrjo11Q0)]|
 |9|27 Jan| Causality and Fairness (guest lecture by Ritik Dutta) [[Slides]()][[Video](https://youtu.be/lLOTj7gXcfw)]|
+|10|29 Jan|Linear Regression (Time Complexity) [[Slides]()][[Video]()]|
+|10|29 Jan|Constrained Optimization [[Slides]()][[Video]()]|
+|10| 29 Jan| Decision Trees (weighted samples) [[Slides]()][[Video]()]|
+|11| 3 Feb|Constrained Optimization II [[Slides]()][[Video]()]|
+|11| 3 Feb| Ridge Regression [[Slides]()][[Video]()]|
+|12|5 Feb| Ridge Regression II [[Slides]()][[Video]()]|
+|12|5 Feb|Lasso Regression [[Slides]()][[Video]()]|
+|13| 10 Feb| Lasso Regression II [[Slides]()][[Video]()]|
+|13| 10 Feb| Multivariate normal distribution [[Slides]()][[Video]()]|
+
 |25|22 June| SVM Introduction [[Slides ](../lectures/25-svm-intro.pdf)][[Video](https://www.youtube.com/watch?v=SxlM9Fpfk2Y&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=47&t=3506s)]
 |26|24 Jun| SVM Kernels [[Slides ](../lectures/26-svm-kernel.pdf)][[Video](https://www.youtube.com/watch?v=MhjxDACIVWM&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=48&t=11s)]| [Article from Jake Vanderplas'book](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html)|
 |27|29 Jun|SVM soft margin [[Slides](../lectures/27-svm-soft-margin.pdf)][[Video](https://www.youtube.com/watch?v=yY6-LUerLcs&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=49&t=3s)]
