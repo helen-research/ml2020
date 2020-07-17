@@ -42,7 +42,7 @@ description: "Education is what remains after one has forgotten what one has lea
 |21| 8 Jun| MLP 1 [[Slides](../lectures/23-neural-networks.pdf)][[Video](https://www.youtube.com/watch?v=fu8MCJdlWQY&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=39)]|
 |22| 10 Jun| MLP 2 [[Video1](https://www.youtube.com/watch?v=XmGFC9rdPF4&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=40)][[Video2](https://www.youtube.com/watch?v=XmGFC9rdPF4&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=40)]|
 |23| 15 Jun| NN: Backprop [[Video](https://www.youtube.com/watch?v=mEWbGT0l9xM&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=42)]|
-|24| 17 Jun| CNN [[Slides]()][[Video](https://www.youtube.com/watch?v=ufw5Vb3z5Yw&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=43)]|
+|24| 17 Jun| CNN [[Slides](../lectures/24-CNN.pdf)][[Video](https://www.youtube.com/watch?v=ufw5Vb3z5Yw&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=43)]|
 |25|22 June| SVM Introduction [[Slides ](../lectures/25-svm-intro.pdf)][[Video](https://www.youtube.com/watch?v=SxlM9Fpfk2Y&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=47&t=3506s)]
 |26|24 Jun| SVM Kernels [[Slides ](../lectures/26-svm-kernel.pdf)][[Video](https://www.youtube.com/watch?v=MhjxDACIVWM&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=48&t=11s)]| [Article from Jake Vanderplas'book](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html)|
 |27|29 Jun|SVM soft margin [[Slides](../lectures/27-svm-soft-margin.pdf)][[Video](https://www.youtube.com/watch?v=yY6-LUerLcs&list=PLftoLyLEwECCQjh7OTmrteMveaomqpVF0&index=49&t=3s)]
